@@ -12,6 +12,8 @@ function TreesByName(){
   
   for(let i = 0; i < data.length; i++){
     let tree = data[i];
+
+
     if(tree.name == "Nitrogen dioxide (NO2)"){
       no2++;
     }else if(tree.name == "Ozone (O3)"){
@@ -20,17 +22,17 @@ function TreesByName(){
       pm++;
     }
   }
-
-
   let chartData = [
     ["Nitrogen dioxide (NO2)", no2],
     ["Ozone (O3)", o3],
     ["Fine particles (PM 2.5)", pm]
   ];
+
   
   let chartType = document.getElementById("chartType").value;
-  displayChart(chartData, "output", chartType);
+    displayChart(chartData, "output", chartType);
 }
+
 
 
 function displayChart( data, chart_id, chart_type ){
