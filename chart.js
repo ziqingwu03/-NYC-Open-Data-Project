@@ -21,6 +21,7 @@ function TreesByName(){
     }
   }
 
+
   let chartData = [
     ["Nitrogen dioxide (NO2)", no2],
     ["Ozone (O3)", o3],
