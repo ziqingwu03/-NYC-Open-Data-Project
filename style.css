@@ -36,8 +36,13 @@ nav a:hover{
 }
 }
 
+#introcolor{
+  background-color: azure;
+  color:rgb(128, 146, 185)
+}
+
 #secondbanner{
-  background-color:rgb(19, 30, 46);
+  background-color:rgb(107, 116, 129);
   color:white;
   p {
   font-size: 25px;
@@ -117,4 +122,7 @@ nav a:hover{
 
 #link h1 {
 color:aliceblue;
+}
+#white{
+  color:white
 }
