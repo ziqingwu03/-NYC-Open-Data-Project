@@ -101,6 +101,8 @@ nav a:hover{
 .fitted{
   max-width:200px;
   min-width:200px;
+    background-color: rgb(216, 211, 205);
+
 }
 #result{
   background-color: rgb(196, 196, 182);
@@ -126,3 +128,4 @@ color:aliceblue;
 #white{
   color:white
 }
+
